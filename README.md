@@ -1,4 +1,6 @@
 # Frontend Mentor - Typing Speed Test
+<img width="1440" height="1056" alt="image" src="https://github.com/user-attachments/assets/d2718f23-5401-4e31-85d0-f02bfca7fbb6" />
+
 
 ![Design preview for the Typing Speed Test coding challenge](./preview.jpg)
 
