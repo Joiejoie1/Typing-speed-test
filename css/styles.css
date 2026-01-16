@@ -34,6 +34,21 @@ button:hover {
   background-color: #1e293b;
 }
 
+/* Passage container */
+.passage {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  padding: 1rem;
+  background: #f8f9fb;
+  border-radius: 8px;
+  cursor: text;
+}
+
+/* Character */
+.passage span {
+  white-space: pre;
+}
+
 #passage {
   margin: 2rem 0;
   line-height: 1.8;
@@ -41,10 +56,21 @@ button:hover {
 }
 
 .correct {
+  color: #22c55e;
+}
+
+.incorrect {
   color: #ef4444;
   text-decoration: underline;
 }
 
 .cursor {
-  border-left: 2px solid #60a5fa;
+  border-left: 2px solid #2563eb;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
 }
