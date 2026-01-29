@@ -74,3 +74,51 @@ button:hover {
     border-color: transparent;
   }
 }
+
+.difficulty {
+  margin: 1rem 0;
+}
+
+.difficulty-option {
+  margin-left: 0.75rem;
+  cursor: pointer;
+  color: #94a3b8;
+}
+
+.difficulty-option:hover {
+  color: #e5e7eb;
+}
+
+.difficulty-option.active {
+  color: #22c55e;
+  font-weight: 600;
+}
+
+.mode {
+  margin: 1rem 0;
+}
+
+.mode-option {
+  margin-left: 0.75rem;
+  cursor: pointer;
+  color: #94a3b8;
+}
+
+.mode-option:hover {
+  color: #e5e7eb;
+}
+
+.mode-option.active {
+  color: #38bdf8;
+  font-weight: 600;
+}
+
+.passage {
+  color: #020617;
+}
+
+@media (max-width: 640px) {
+  body {
+    padding: 1rem;
+  }
+}

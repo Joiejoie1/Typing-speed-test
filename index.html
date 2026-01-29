@@ -11,8 +11,9 @@
 </head>
 <body>
 
-  Personal best: <!-- PB --> WPM
-
+<div>  
+  Personal best: <span id="personal-best">0</span> WPM
+</div>
  <!-- Stats -->
 <div>
   WPM: <span id="wpm">0</span>
@@ -20,16 +21,20 @@
   Time: <span id="time">60</span>
 </div>
 
+<div class="difficulty">  
   Difficulty:
-  Easy
-  Medium
-  Hard
+  <span id="easy" class="difficulty-option active">Easy</span>
+  <span id="medium" class="difficulty-option">Medium</span>
+  <span id="hard" class="difficulty-option">Hard</span>
+</div>
 
+<div class="mode">
   Mode:
-  Timed (60s)
-  Passage
+  <span id="timed" class="mode-option active">Timed (60s)</span>
+  <span id="passage-mode" class="mode-option">Passage</span>
+</div>
 
-  <!-- Passage -->
+  <!--m Passage -->
   <div id="passage" class="passage"></div>
 
   <!-- Start text -->
