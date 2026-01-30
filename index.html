@@ -10,7 +10,9 @@
   
 </head>
 <body>
+<h1>Typing Speed Test</h1>
 
+<main>
 <div>  
   Personal best: <span id="personal-best">0</span> WPM
 </div>
@@ -21,6 +23,7 @@
   Time: <span id="time">60</span>
 </div>
 
+<!-- Difficulty -->
 <div class="difficulty">  
   Difficulty:
   <span id="easy" class="difficulty-option active">Easy</span>
@@ -28,13 +31,14 @@
   <span id="hard" class="difficulty-option">Hard</span>
 </div>
 
+<!-- Mode-->
 <div class="mode">
   Mode:
   <span id="timed" class="mode-option active">Timed (60s)</span>
   <span id="passage-mode" class="mode-option">Passage</span>
 </div>
 
-  <!--m Passage -->
+  <!-- Passage -->
   <div id="passage" class="passage"></div>
 
   <!-- Start text -->
@@ -42,8 +46,8 @@
 
   <!-- Test Complete Start -->
 <section id="results" hidden>
-  Test Complete!
-  Solid run. Keep pushing to beat your high score.
+  <h2>Test Complete!</h2>
+  <p id="result-message">Solid run. Keep pushing to beat your high score.</p>
 
   WPM: <span id="final-wpm"></span><!-- WPM -->
   Accuracy: <span id="final-accuracy"></span><!-- Accuracy -->
@@ -51,12 +55,14 @@
 
   <button id="restart">Go Again</button>
 </section>
+</main>
   <!-- Test Complete End -->
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+  <footer class="attribution">
+    Challenge by 
+    <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
     Coded by <a href="#">Joy Gundu</a>.
-  </div>
+  </footer>
   <script src="./js/app.js" defer></script>
 </body>
 </html>
